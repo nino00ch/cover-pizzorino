@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body {
+    font-family: "Playwrite CU", cursive;
+   
+header {
+    height: 1520px;
+    width: 1200px;
+    background-image: url(sincerely-media-BkvNCQBxDJk-unsplash.jpg);
+    background-size: cover;
+color: black;
+}
+.navbar {
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    background-color: #8a817c;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links ul  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+}
+ul li a {
+    color: black;
+
+}
+.logo {
+    color: black;
+    font-family: "Playwrite CU", cursive;
+  
+}
+@media screen and (max-width: 768px) {
+    body {
+        margin: 1em 2em ;
+    }
+}
